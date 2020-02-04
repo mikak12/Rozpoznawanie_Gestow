@@ -1,0 +1,11 @@
+.\gpio.o: GPIO.c
+.\gpio.o: GPIO.h
+.\gpio.o: E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h
+.\gpio.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h
+.\gpio.o: E:\instalki\KeilInstall\ARM\ARMCC\Bin\..\include\stdint.h
+.\gpio.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+.\gpio.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+.\gpio.o: E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h
+.\gpio.o: I2C.h
+.\gpio.o: UART.h
+.\gpio.o: Clock.h

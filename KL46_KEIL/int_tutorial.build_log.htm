@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dominik Mikak, AGH, LIC=YA3Y8-3J2HT-DKUBN-YGNQR-SB4KA-GQEDB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  E:\instalki\KeilInstall\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.11
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+F:\STUDIA\semestr V\SMP2\Projekt\Do_ODDANIA\master\master\I2C\int_tutorial.uvprojx
+Project File Date:  01/19/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\instalki\KeilInstall\ARM\ARMCC\Bin'
+Rebuild target 'IntApp'
+compiling Led.c...
+compiling I2C.c...
+I2C.c(40): warning:  #177-D: variable "adresssslave"  was declared but never referenced
+  	uint16_t adresssslave= 0x1D;
+I2C.c(42): warning:  #177-D: variable "a"  was declared but never referenced
+    int a, j, k;	  
+I2C.c(42): warning:  #177-D: variable "j"  was declared but never referenced
+    int a, j, k;	  
+I2C.c(81): warning:  #177-D: variable "DATA_DUMMY"  was declared but never referenced
+  	unsigned char DATA_DUMMY =0;
+I2C.c(82): warning:  #177-D: variable "DATA"  was declared but never referenced
+  	unsigned char DATA =0;
+I2C.c(126): warning:  #550-D: variable "DATA_DUMMY"  was set but never used
+  	unsigned char DATA_DUMMY =0;
+I2C.c(247): warning:  #550-D: variable "DATA_DUMMY"  was set but never used
+  	unsigned char DATA_DUMMY =0;unsigned char DATA =0;unsigned char data_output[6];
+I2C.c(247): warning:  #177-D: variable "DATA"  was declared but never referenced
+  	unsigned char DATA_DUMMY =0;unsigned char DATA =0;unsigned char data_output[6];
+I2C.c(247): warning:  #177-D: variable "data_output"  was declared but never referenced
+  	unsigned char DATA_DUMMY =0;unsigned char DATA =0;unsigned char data_output[6];
+I2C.c: 9 warnings, 0 errors
+compiling main.c...
+Accelerometer.h(24): warning:  #1-D: last line of file ends without a newline
+  	
+main.c(47): warning:  #223-D: function "button1Read" declared implicitly
+  			if(!button1Read())
+main.c(22): warning:  #177-D: variable "stringsConsole"  was declared but never referenced
+  	char *stringsConsole[]= {"Start Config \r\n",
+main.c: 3 warnings, 0 errors
+compiling UART.c...
+UART.c(39): warning:  #177-D: variable "endLine"  was declared but never referenced
+  	char endLine[] = "\r\n";
+UART.c: 1 warning, 0 errors
+compiling Clock.c...
+Clock.c(52): warning:  #1-D: last line of file ends without a newline
+  }
+Clock.c: 1 warning, 0 errors
+assembling startup_MKL46Z4.s...
+compiling Accelerometer.c...
+Accelerometer.h(24): warning:  #1-D: last line of file ends without a newline
+  	
+Accelerometer.c: 1 warning, 0 errors
+compiling GPIO.c...
+compiling system_MKL46Z4.c...
+linking...
+Program Size: Code=5976 RO-data=368 RW-data=80 ZI-data=352  
+".\int_tutorial.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.1.1.pack
+                ARM.CMSIS.4.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.30.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.3.0.pack
+                Keil.Kinetis_KLxx_DFP.1.3.0
+                Freescale Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_IntApp
+  E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include
+  E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.30.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_MKL46Z4.s
+      Source file:   Device\Source\system_MKL46Z4.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

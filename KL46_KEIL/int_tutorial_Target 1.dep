@@ -1,0 +1,54 @@
+Dependencies for Project 'int_tutorial', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x543F6AA3)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)
+I (leds.h)(0x543CD2C9)
+I (buttons.h)(0x5432AC0F)
+I (lptimer.h)(0x5437B7C1)
+I (lowpower.h)(0x543A47BE)
+F (.\leds.c)(0x543F6DB7)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\leds.o --omf_browse .\leds.crf --depend .\leds.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)
+I (leds.h)(0x543CD2C9)
+F (.\buttons.c)(0x543CE5B0)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\buttons.o --omf_browse .\buttons.crf --depend .\buttons.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)
+I (buttons.h)(0x5432AC0F)
+I (leds.h)(0x543CD2C9)
+F (.\lptimer.c)(0x543CD02E)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\lptimer.o --omf_browse .\lptimer.crf --depend .\lptimer.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)
+I (lptimer.h)(0x5437B7C1)
+I (leds.h)(0x543CD2C9)
+F (.\lowpower.c)(0x543CFBE0)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\lowpower.o --omf_browse .\lowpower.crf --depend .\lowpower.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)
+I (lowpower.h)(0x543A47BE)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x51C01318)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include--list .\startup_mkl46z4.lst --xref -o .\startup_mkl46z4.o --depend .\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x543CC28C)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Pawel\Documents\ARM_proj\Boards\Freescale\FRDM-KL46Z\int_tutorial\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include-D_RTE_ -DMKL46Z256xxx4-o .\system_mkl46z4.o --omf_browse .\system_mkl46z4.crf --depend .\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53468EA4)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\MKL46Z4.h)(0x51C01318)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368DF0C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.2.0\Device\Include\system_MKL46Z4.h)(0x51C01318)

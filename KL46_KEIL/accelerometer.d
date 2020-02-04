@@ -1,0 +1,12 @@
+.\accelerometer.o: Accelerometer.c
+.\accelerometer.o: Accelerometer.h
+.\accelerometer.o: E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h
+.\accelerometer.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h
+.\accelerometer.o: E:\instalki\KeilInstall\ARM\ARMCC\Bin\..\include\stdint.h
+.\accelerometer.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h
+.\accelerometer.o: E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h
+.\accelerometer.o: E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h
+.\accelerometer.o: I2C.h
+.\accelerometer.o: UART.h
+.\accelerometer.o: Clock.h
+.\accelerometer.o: Clock.h

@@ -1,0 +1,80 @@
+Dependencies for Project 'int_tutorial', Target 'IntApp': (DO NOT MODIFY !)
+F (.\main.c)(0x5E2ED0A4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\string.h)(0x599F3DAC)
+I (I2C.h)(0x5E2ED064)
+I (UART.h)(0x5E0F1B41)
+I (Clock.h)(0x5E0F41BE)
+I (Led.h)(0x5E0E61BD)
+I (Accelerometer.h)(0x5E2ED094)
+I (GPIO.h)(0x5E2C3D71)
+F (.\I2C.c)(0x5E2ECFE9)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (I2C.h)(0x5E2ED064)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (UART.h)(0x5E0F1B41)
+I (Clock.h)(0x5E0F41BE)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\string.h)(0x599F3DAC)
+F (.\Led.c)(0x5E0E61BD)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (Led.h)(0x5E0E61BD)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+F (.\UART.c)(0x5E2ED02D)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x5E0F1B41)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+F (.\Accelerometer.c)(0x5E2ED094)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\accelerometer.o --omf_browse .\accelerometer.crf --depend .\accelerometer.d)
+I (Accelerometer.h)(0x5E2ED094)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (I2C.h)(0x5E2ED064)
+I (UART.h)(0x5E0F1B41)
+I (Clock.h)(0x5E0F41BE)
+F (.\Clock.c)(0x5E0F41BE)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\clock.o --omf_browse .\clock.crf --depend .\clock.d)
+I (Clock.h)(0x5E0F41BE)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+F (.\GPIO.c)(0x5E2ECCDD)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (GPIO.h)(0x5E2C3D71)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
+I (I2C.h)(0x5E2ED064)
+I (UART.h)(0x5E0F1B41)
+I (Clock.h)(0x5E0F41BE)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x5E0E61BD)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\startup_mkl46z4.lst --xref -o .\startup_mkl46z4.o --depend .\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x5E0E61BD)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I.\RTE\_IntApp-IE:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include-IE:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include-D__UVISION_VERSION="526" -D_RTE_ -DMKL46Z256xxx4-o .\system_mkl46z4.o --omf_browse .\system_mkl46z4.crf --depend .\system_mkl46z4.d)
+I (E:\instalki\KeilInstall\ARM\ARMCC\include\stdint.h)(0x599F3DAE)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h)(0x51C02128)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cm0plus.h)(0x5368ED1C)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h)(0x53030540)
+I (E:\instalki\KeilPack\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmFunc.h)(0x53030540)
+I (E:\instalki\KeilPack\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h)(0x51C02128)
